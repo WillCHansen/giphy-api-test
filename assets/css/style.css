@@ -1,0 +1,10 @@
+img{
+	height: auto;
+	width: 200px;
+}
+.imgcont{
+	display: block;
+	display: inline-block;
+	height: 200px;
+	width: 200px;
+}
