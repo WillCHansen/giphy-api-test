@@ -45,7 +45,7 @@ function searchGiphy(searchString) {
     api_key: "dc6zaTOxFJmzC"
   };
 
-  var URL = "http://api.giphy.com/v1/gifs/search?";
+  var URL = "https://api.giphy.com/v1/gifs/search?";
   var queryURL = URL + $.param(queryObj)
   console.log(queryURL);
   $.ajax({
